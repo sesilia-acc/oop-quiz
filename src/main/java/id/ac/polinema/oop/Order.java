@@ -36,7 +36,7 @@ public class Order {
 
     public double getFinalTotal() {
         double total = getTotal();
-        if (total > 100_000) {
+        if (total >= 100000) {
             total *= 0.1;
         }
         return total;
