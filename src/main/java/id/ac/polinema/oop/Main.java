@@ -18,7 +18,7 @@ public class Main {
         menu.addMenuItem(new MenuItem("Mie Ayam", 12000));
         menu.addMenuItem(new MenuItem("Pop Ice", 5000));
         
-        Customer customer = new Customer("C001", "Joko Kendil");
+        Customer customer = new Customer("C001", "Rara Farina");
         Order order = new Order(customer);
         order.addItem(menu.findItem("Mie Ayam"), 3);
         order.addItem(menu.findItem("Ayam Geprek"), 10);
