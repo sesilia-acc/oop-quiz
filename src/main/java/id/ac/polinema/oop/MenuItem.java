@@ -25,7 +25,11 @@ public class MenuItem {
         this.name = name;
         this.price = price;
     }
-
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+    
     public String getName() {
         return name;
     }
@@ -46,3 +50,4 @@ public class MenuItem {
         }
     }
 }
+
